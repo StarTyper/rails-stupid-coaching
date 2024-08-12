@@ -1,0 +1,16 @@
+<div class="position-absolute top-0 start-50 translate-middle-x">
+
+  <h1 class="m-3">Here you get your answer 💪🏻</h1>
+
+  <div class="card position-relative top-0 start-50 translate-middle-x" style="width: 18rem;">
+    <img  src="https://images.unsplash.com/photo-1639422090826-57aa8ad6a76b?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          class="card-img-top" alt="screaming man">
+    <div class="card-body">
+      <h5 class="card-title">The Coach Says:</h5>
+      <p class="card-text"><%= @answer %></p>
+      <button type="button" class="btn btn-outline-primary text-decoration-none">
+        <%= link_to "Ask a new question", ask_path %>
+      </button>
+    </div>
+  </div>
+</div>
